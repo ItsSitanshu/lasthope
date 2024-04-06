@@ -1,0 +1,21 @@
+# Hashes of file build rules.
+cad3b66e7b0b0dec0edf14181707360b CMakeFiles/uninstall
+a53af527614a2a309029a2fdf07ce6f0 raylib/external/glfw/src/CMakeFiles/update_mappings
+e743b52c6b19f2527febd4ae26e45d5d raylib/external/glfw/src/fractional-scale-v1-client-protocol-code.h
+51604718f4acb52e105ee8ff33676270 raylib/external/glfw/src/fractional-scale-v1-client-protocol.h
+a21c6fd0444d832ae2b3a5089e554632 raylib/external/glfw/src/idle-inhibit-unstable-v1-client-protocol-code.h
+ca94b9a231acfc7d15cf9da1d109933d raylib/external/glfw/src/idle-inhibit-unstable-v1-client-protocol.h
+193520d56e32f63fba90b4b6512133b3 raylib/external/glfw/src/pointer-constraints-unstable-v1-client-protocol-code.h
+bf507899852b65f6978ea5363b488799 raylib/external/glfw/src/pointer-constraints-unstable-v1-client-protocol.h
+6f71032ae437df17dda5c742b4fa00dc raylib/external/glfw/src/relative-pointer-unstable-v1-client-protocol-code.h
+8dd0a34069ff946414cc031d8ab66e01 raylib/external/glfw/src/relative-pointer-unstable-v1-client-protocol.h
+f5c35a79433e3bbcf53845266c420d79 raylib/external/glfw/src/viewporter-client-protocol-code.h
+f533a6043a648b1d6562b72a4a4984fa raylib/external/glfw/src/viewporter-client-protocol.h
+953501e8e29c1cee3cd4cf18f54cddb8 raylib/external/glfw/src/wayland-client-protocol-code.h
+0cc130092f87f25bac618bce812c7666 raylib/external/glfw/src/wayland-client-protocol.h
+e590ab754abe678413e4fa5fd339cddf raylib/external/glfw/src/xdg-activation-v1-client-protocol-code.h
+3354e4c98cd8099ac4bde64e963ba028 raylib/external/glfw/src/xdg-activation-v1-client-protocol.h
+15d561bec9e68ea9f9b57d079c1e176d raylib/external/glfw/src/xdg-decoration-unstable-v1-client-protocol-code.h
+3d0f4be4c28e9470d2ba7a6e0af551ce raylib/external/glfw/src/xdg-decoration-unstable-v1-client-protocol.h
+a29fc6c9ec33a3e1e2b568da12f29751 raylib/external/glfw/src/xdg-shell-client-protocol-code.h
+533c003d607c700d9937a224226a0245 raylib/external/glfw/src/xdg-shell-client-protocol.h

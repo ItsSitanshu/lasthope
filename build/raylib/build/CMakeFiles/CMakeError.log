@@ -1,0 +1,30 @@
+Determining if the QueryPerformanceCounter exist failed with the following output:
+Change Dir: /home/tanshu/Desktop/personal/lasthope/build/raylib/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_d545a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_d545a.dir/build.make CMakeFiles/cmTC_d545a.dir/build
+gmake[1]: Entering directory '/home/tanshu/Desktop/personal/lasthope/build/raylib/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d545a.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_POSIX_C_SOURCE=199309L  -fno-strict-aliasing    -o CMakeFiles/cmTC_d545a.dir/CheckSymbolExists.c.o -c /home/tanshu/Desktop/personal/lasthope/build/raylib/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/tanshu/Desktop/personal/lasthope/build/raylib/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:2:10: fatal error: windows.h: No such file or directory
+    2 | #include <windows.h>
+      |          ^~~~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_d545a.dir/build.make:78: CMakeFiles/cmTC_d545a.dir/CheckSymbolExists.c.o] Error 1
+gmake[1]: Leaving directory '/home/tanshu/Desktop/personal/lasthope/build/raylib/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_d545a/fast] Error 2
+
+
+File /home/tanshu/Desktop/personal/lasthope/build/raylib/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <windows.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef QueryPerformanceCounter
+  return ((int*)(&QueryPerformanceCounter))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
