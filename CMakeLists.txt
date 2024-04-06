@@ -6,12 +6,12 @@ if(NOT EXISTS ${CMAKE_BINARY_DIR}/raylib/build/libraylib.a)
     
     file(MAKE_DIRECTORY ${CMAKE_BINARY_DIR}/raylib/build)
     
-    execute_process(COMMAND cmake -B ${CMAKE_BINARY_DIR}/raylib/build ${CMAKE_SOURCE_DIR}/raylib)
+    execute_process(COMMAND cmake -B ${CMAKE_BINARY_DIR}/raylib/build ${CMAKE_SOURCE_DIR}/deps/raylib)
     
     execute_process(COMMAND cmake --build ${CMAKE_BINARY_DIR}/raylib/build)
 endif()
 
-add_subdirectory(raylib)
+add_subdirectory(deps/raylib)
 
 set(SOURCES
     src/main.cpp
